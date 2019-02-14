@@ -94,6 +94,10 @@ body {
   border-radius: 25px;
 }
 
+.about-wrapper {
+  width: 80%;
+}
+
 /* Style the links inside the navigation bar */
 
 /* Change the color of links on hover */

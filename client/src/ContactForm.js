@@ -6,8 +6,9 @@ class ContactForm extends Component{
   constructor(props){
     super();
     this.state = {
-      title: '',
-      body: ''
+      name: '',
+      email: '',
+      message: ''
     }
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
@@ -20,29 +21,38 @@ class ContactForm extends Component{
   onSubmit(e){
     e.preventDefault();
     const post = {
-      title: this.state.title,
-      body: this.state.body
+      email: this.state.email,
+      message: this.state.message
+
     }
     //call actions
     console.log(post);
+    fetch('/api/form', {
+      method: "POST",
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify(post)
+    })
+    .then(res => res.json())
   }
 
 
   render() {
     return(
       <div>
-        <h1>Add Post</h1>
+        <h1>Contact</h1>
         <form onSubmit={this.onSubmit}>
           <div>
-            <label>Title:</label><br />
-            <input type="text" name="title"
-            value={this.state.title}
+            <label>Email:</label><br />
+            <input type="text" name="email"
+            value={this.state.email}
             onChange={this.onChange}/>
           </div>
           <div>
-            <label>Body:</label><br />
-            <textarea name="body"
-            value={this.state.body}
+            <label>Message</label><br />
+            <textarea name="message"
+            value={this.state.message}
             onChange={this.onChange}/>
           </div>
           <button type="submit">Submit</button>
