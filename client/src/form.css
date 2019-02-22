@@ -53,6 +53,14 @@ button {
   border-radius: 10px;
 }
 
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
 label {
  display: inline-block;
  margin-bottom: .5rem;
