@@ -21,7 +21,7 @@ app.post('/api/form', (req, res) => {
     let transporter = nodemailer.createTransport({
       service: 'gmail',
       port: 25,
-      auth: {,
+      auth: {
         user: process.env.EMAIL,
         pass: process.env.PASSWORD
       }
