@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-// import {connect} from 'react-redux';
-// import {createPost} from '../actions/postActions';
+import './form.css';
+import {validEmail, validateMessage} from './validation';
 
 class ContactForm extends Component{
   constructor(props){
@@ -18,14 +18,21 @@ class ContactForm extends Component{
     this.setState({[e.target.name]: e.target.value})
   }
 
+
   onSubmit(e){
     e.preventDefault();
+    const validatedEmail = validateEmail(this.state.email);
+    const validatedMessage = validateMessage(this.state.message);
+    // if(validatedEmail === true && validatedMessage === true){
+    //
+    // }
+
+
     const post = {
       email: this.state.email,
       message: this.state.message
-
     }
-    //call actions
+    //call action
     console.log(post);
     fetch('/api/form', {
       method: "POST",
@@ -41,8 +48,9 @@ class ContactForm extends Component{
   render() {
     return(
       <div>
-        <h1>Contact</h1>
+        <div className="form-wrapper">
         <form onSubmit={this.onSubmit}>
+          <h1>Contact</h1>
           <div>
             <label>Email:</label><br />
             <input type="text" name="email"
@@ -56,7 +64,8 @@ class ContactForm extends Component{
             onChange={this.onChange}/>
           </div>
           <button type="submit">Submit</button>
-        </form>
+            </form>
+        </div>
       </div>
     );
   }

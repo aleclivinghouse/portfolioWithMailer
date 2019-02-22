@@ -95,7 +95,7 @@ body {
 }
 
 .about-wrapper {
-  width: 80%;
+  width: 90%;
 }
 
 /* Style the links inside the navigation bar */
@@ -121,7 +121,7 @@ body {
   }
 }
 .bio{
-  background-color: #f1f1f1;
+  background-color: white;
   margin-top: 3px;
   height: 300px;
   margin-bottom: 50px;
