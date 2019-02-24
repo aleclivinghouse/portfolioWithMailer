@@ -1,0 +1,71 @@
+.first-wrapper{
+  margin: auto;
+  width: 800px;
+  height: 500px;
+  background-color: #282828;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.project-top-divider{
+  height: 150px;
+}
+
+.project-bottom-divider{
+  height: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .first-wrapper{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: #282828;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .equation-img, .hand-img, .atnpr-logo{
+    width: 200px;
+    display: none;
+  }
+}
+.header{
+  padding: 20px;
+  color: grey
+}
+
+.projects-header{
+  color: grey;
+}
+
+.equation-img{
+  width: 400px;
+}
+.hand-img{
+  width: 250px;
+  margin-top: -50px;
+}
+
+.project-text{
+  padding: 15px;
+  color: grey;
+}
+
+.visit-button {
+  display: inline-block;
+  background: black;
+  color: grey;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .95rem;
+  font-family: sans-serif;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+.visit-button:hover{
+  color: grey;
+}
+
+.atnpr-logo{
+  width: 150px;
+}

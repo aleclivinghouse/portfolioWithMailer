@@ -58,8 +58,6 @@ class ContactForm extends Component{
         messageError: 'Message must be at least 5 characters',
       })
     }
-
-
   }
 
 
@@ -87,6 +85,7 @@ class ContactForm extends Component{
           <button type="submit">Submit</button>
             </form>
         </div>
+        <div className="form-divider"></div>
       </div>
     );
   }

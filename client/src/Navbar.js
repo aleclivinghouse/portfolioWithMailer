@@ -5,7 +5,6 @@ class Navbar extends Component {
   render() {
     return (
     <div className="topnav">
-      <h2 className="header-text">Alec Livinghouse</h2>
     </div>
     );
   }

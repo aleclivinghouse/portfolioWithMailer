@@ -9,7 +9,7 @@ body {
 /* Float four columns side by side */
 .column {
   float: left;
-  width:33.33%;
+  width:25%;
   padding: 0 10px;
 }
 
@@ -27,7 +27,13 @@ body {
 .card {
   padding: 16px;
   text-align: center;
-  background-color: white;
+  background-color: #282828;
+  color: grey;
+  height: 200px;
+}
+
+.card-image {
+  width: 150px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -41,4 +47,8 @@ body {
 
 .row {
   margin: auto;
+}
+
+.projects-container {
+  margin-top: 300px;
 }
