@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const path = require('path');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
@@ -42,6 +43,12 @@ app.post('/api/form', (req, res) => {
       console.log('Message URL: %', nodemailer.getTestMessageUrl)
     })
   })
+})
+
+//Server static assets if in production
+app.use(express.static('client/build'));
+app.get('*', (req, res)=> {
+  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 })
 
 const PORT = process.env.PORT || 3001;
