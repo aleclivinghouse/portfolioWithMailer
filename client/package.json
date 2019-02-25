@@ -8,6 +8,7 @@
     "react": "^16.7.0",
     "react-canvas-knob": "^0.5.0",
     "react-dom": "^16.7.0",
+    "react-download-link": "^2.2.0",
     "react-rain-animation": "^1.0.4",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -27,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-dfb": "^1.0.3"
+  }
 }
