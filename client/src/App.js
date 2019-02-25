@@ -40,7 +40,7 @@ class App extends Component {
           </button>
           </div>
           </div>
-
+          <div className="nav-divider"></div>
           <div className="rain-wrapper">
             {!this.state.isHidden && <ReactRain
               numDrops="100"

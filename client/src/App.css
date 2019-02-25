@@ -28,6 +28,10 @@ body {
   color: #282828;
 }
 
+.nav-divider{
+  height: 100px;
+}
+
 .photo {
   height: 300px;
 }
