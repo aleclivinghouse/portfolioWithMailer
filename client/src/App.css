@@ -86,6 +86,10 @@ body {
   vertical-align: center;
 }
 
+.nav-divider{
+  height: 100px;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #282828;
