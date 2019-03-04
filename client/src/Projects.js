@@ -63,7 +63,6 @@ class Projects extends Component{
           contentLabel="Example Modal"
           style={customStyles}
           >
-            <img src={require()} className="equation-img" />
           <button onClick={this.closeModal} className="btn btn-primary">close</button>
       </Modal>
       <div className="project-top-divider"></div>
