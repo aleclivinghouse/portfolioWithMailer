@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const app = express();
 app.use(bodyParser.json());
+app.use(express.static("public"))
 app.use(bodyParser.urlencoded({extended: false}));
 app.post('/api/form', (req, res) => {
   console.log('this is the body');
