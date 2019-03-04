@@ -64,6 +64,7 @@ class Projects extends Component{
           style={customStyles}
           >
           <button onClick={this.closeModal} className="btn btn-primary">close</button>
+              <img src={require('./methane.png')} className="equation-img" />
       </Modal>
       <div className="project-top-divider"></div>
       <h2 className="projects-header">Projects</h2>
@@ -73,7 +74,6 @@ class Projects extends Component{
           <div className="project-text-wrapper">
             <p className="project-text">An app that solves stoichiometry problems on chemical equations. It also features login and registration and a user dashboard that displays the users solved equations. Built using MongoDB, Express, React, and Node.</p>
             <a href="https://blooming-mesa-54677.herokuapp.com/dashboard" className="visit-button">Visit App</a>
-             // <button onClick={this.onFireOne} className="visit-button">See ScreenShot</button>
           </div>
         </div>
         <div className="first-wrapper">
