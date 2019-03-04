@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const app = express();
 app.use(bodyParser.json());
+
+app.use(express.static("public"))
 app.use(bodyParser.urlencoded({extended: false}));
 app.post('/api/form', (req, res) => {
   console.log('this is the body');
@@ -44,7 +46,6 @@ app.post('/api/form', (req, res) => {
   })
 })
 
-app.use(express.static('client/build'));
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
