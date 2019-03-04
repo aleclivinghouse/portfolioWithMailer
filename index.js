@@ -43,10 +43,8 @@ app.post('/api/form', (req, res) => {
     })
   })
 })
-app.use(express.static('client/build'))
-app.get('*', (req, res)=>{
-  res.sendFile(path.solve(__dirname, 'client', 'build', 'index.html'));
-});
+
+app.use(express.static('client/build'));
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
