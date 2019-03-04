@@ -2,10 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const path = require('path');
 const app = express();
 app.use(bodyParser.json());
-
-app.use(express.static("public"))
 app.use(bodyParser.urlencoded({extended: false}));
 app.post('/api/form', (req, res) => {
   console.log('this is the body');
@@ -46,6 +45,10 @@ app.post('/api/form', (req, res) => {
   })
 })
 
+app.use(express.static('client/build'))
+app.get('*', (req, res)=>{
+  res.sendFile(path.solve(__dirname, 'client', 'build', 'index.html'));
+});
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
