@@ -15,7 +15,6 @@ class About extends Component {
      <div className="twoCol bio">
       <h4>Bio</h4>
         <p className="about-paragraph">I graduated from UC Santa Cruz in 2018 with a B.A. in Film and Digital Media. Since then I have gone on to attend Thinkful Coding Bootcamp where I have studied MondoDB, SQL, Node.js, Express.js, jQuery, and React.js. I also have some previous exprerience with Python and Django.</p>
-        <a href='./resume' download className="rain-button">Resume</a>
      </div>
     </div>
     </div>
@@ -29,3 +28,4 @@ export default About;
 
 //#202020
 //#282828
+  // <a href='./resume.pdf' download className="rain-button">Resume</a>
