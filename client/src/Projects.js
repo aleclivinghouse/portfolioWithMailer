@@ -87,7 +87,6 @@ class Projects extends Component{
             <p className="project-text">An app that solves stoichiometry problems on chemical equations. It also features login and registration and a user dashboard that displays the users solved equations. Built using MongoDB, Express, React, and Node.</p>
             <a href="https://blooming-mesa-54677.herokuapp.com/dashboard" className="visit-button">Visit App</a>
             <button href="#" onClick={this.onFireOne} className="visit-button screenshot-button">See ScreenShot</button>
-              <p>demo account: user20 passwordpassword</p>
           </div>
         </div>
         <div className="first-wrapper">
@@ -97,7 +96,6 @@ class Projects extends Component{
             <p className="project-text">An app that allows users to play two truths and a lie featuring follows, comments, and likes. Built using MongoDB, Express, React, and Node.</p>
             <a href="https://agile-retreat-41591.herokuapp.com/" className="visit-button">Visit App</a>
               <button href="#" onClick={this.onFireTwo} className="visit-button screenshot-button">See ScreenShot</button>
-            <p>demo account: jim@yahoo.com Voodoo12</p>
           </div>
         </div>
         <div className="first-wrapper">
