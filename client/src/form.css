@@ -29,6 +29,11 @@ h1 {
  margin-bottom: 3.236rem;
  text-align: center;
  font-size: 1.618rem;
+ color: whitesmoke;
+}
+
+label {
+  color: whitesmoke;
 }
 
 .form-group {
@@ -43,7 +48,7 @@ h1 {
 button {
   display: inline-block;
   background: black;
-  color: grey;
+  color: whitesmoke;
   text-decoration: none;
   font-weight: 600;
   font-size: .95rem;
@@ -94,7 +99,7 @@ textarea {
 textarea,
 input[type] {
   background-color: #333;
-  color: grey;
+  color: whitesmoke;
 }
 
 

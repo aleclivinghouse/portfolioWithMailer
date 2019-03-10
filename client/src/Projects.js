@@ -79,9 +79,9 @@ class Projects extends Component{
           <button onClick={this.closeModal} className="btn btn-primary">close</button>
       </Modal>
       <div className="project-top-divider"></div>
-      <h2 className="projects-header">Projects</h2>
+      <h1 className="projects-header">My Projects</h1>
         <div className="first-wrapper">
-        <h1 className="header">Stoichiometry Calculator</h1>
+        <h3 className="header">Stoichiometry Calculator</h3>
           <img src={require('./methane.png')} className="equation-img" />
           <div className="project-text-wrapper">
             <p className="project-text">An app that solves stoichiometry problems on chemical equations. It also features login and registration and a user dashboard that displays the users solved equations. Built using MongoDB, Express, React, and Node.</p>
@@ -91,7 +91,7 @@ class Projects extends Component{
           </div>
         </div>
         <div className="first-wrapper">
-        <h1 className="header">Two Truths and A Lie</h1>
+        <h3 className="header header-margin">Two Truths and A Lie</h3>
           <img src={require('./hand.png')} className="hand-img" />
           <div className="project-text-wrapper">
             <p className="project-text">An app that allows users to play two truths and a lie featuring follows, comments, and likes. Built using MongoDB, Express, React, and Node.</p>
@@ -100,7 +100,7 @@ class Projects extends Component{
           </div>
         </div>
         <div className="first-wrapper">
-        <h1 className="header">ATNPR</h1>
+        <h3 className="header">ATNPR</h3>
           <img src={require('./logo-recropped.jpg')} className="atnpr-logo" />
           <div className="project-text-wrapper">
             <p className="project-text">Web app I made for a small business owner that includes a contact form and a blog with an admin section. Built using Python and Django</p>
@@ -109,7 +109,7 @@ class Projects extends Component{
           </div>
         </div>
         <div className="first-wrapper">
-        <h1 className="header">Beer Statistics Scatterplot</h1>
+        <h3 className="header header-margin">Beer Statistics Scatterplot</h3>
           <img src={require('./scatter1.png')} className="hand-img" />
           <div className="project-text-wrapper">
             <p className="project-text">Interactive graph that displays beers based on their ABV and IBU value. Built using HTML, CSS, React, and D3.</p>
@@ -118,7 +118,7 @@ class Projects extends Component{
           </div>
         </div>
         <div className="first-wrapper">
-        <h1 className="header">Bookmarks App</h1>
+        <h3 className="header">Bookmarks App</h3>
           <img src={require('./bookmark.png')} className="atnpr-logo" />
           <div className="project-text-wrapper">
             <p className="project-text">Web app that allows users to bookmark pages, rate the pages they bookmark, and filter by rating. The app uses a jQuery store, not just jQuery plugins. Built using HTML, CSS, and jQuery.</p>

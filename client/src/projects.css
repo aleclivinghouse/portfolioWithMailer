@@ -30,11 +30,14 @@
 }
 .header{
   padding: 20px;
-  color: grey
+  color: whitesmoke
 }
 
+.header-margin {
+  margin-bottom: 40px;
+}
 .projects-header{
-  color: grey;
+  color: whitesmoke;
 }
 
 .equation-img{
@@ -47,7 +50,7 @@
 
 .project-text{
   padding: 15px;
-  color: grey;
+  color: whitesmoke;
 }
 
 .screenshot-button {
@@ -61,7 +64,7 @@
 .visit-button {
   display: inline-block;
   background: black;
-  color: grey;
+  color: whitesmoke;
   text-decoration: none;
   font-weight: 600;
   font-size: .95rem;
@@ -71,7 +74,7 @@
 }
 
 .visit-button:hover{
-  color: grey;
+  color: whitesmoke;
 }
 
 .atnpr-logo{
