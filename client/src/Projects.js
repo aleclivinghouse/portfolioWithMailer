@@ -62,7 +62,7 @@ class Projects extends Component{
     }else if(this.state.image === 3){
           image =  <img src={require('./atnrp-screen.png')}  className="lightbox"/>
       }else if(this.state.image === 4){
-            image =  <img src={require('./scatterplot-screen.png')} className="lightbox" />
+            image =  <img src={require('./plot.png')} className="lightbox" />
         } else {
           image =  <img src={require('./bookmarks-screen.png')}  className="lightbox"/>
         }
@@ -87,6 +87,7 @@ class Projects extends Component{
             <p className="project-text">An app that solves stoichiometry problems on chemical equations. It also features login and registration and a user dashboard that displays the users solved equations. Built using MongoDB, Express, React, and Node.</p>
             <a href="https://blooming-mesa-54677.herokuapp.com/dashboard" className="visit-button">Visit App</a>
             <button href="#" onClick={this.onFireOne} className="visit-button screenshot-button">See ScreenShot</button>
+
           </div>
         </div>
         <div className="first-wrapper">
@@ -111,7 +112,7 @@ class Projects extends Component{
         <h1 className="header">Beer Statistics Scatterplot</h1>
           <img src={require('./scatter1.png')} className="hand-img" />
           <div className="project-text-wrapper">
-            <p className="project-text">Interactive graph that displays beers based on their ABV and IBU value. Built using HTML, CSS, React, and JQuery. </p>
+            <p className="project-text">Interactive graph that displays beers based on their ABV and IBU value. Built using HTML, CSS, React, and D3.</p>
             <a href="https://beer-scatterplot.herokuapp.com/" className="visit-button">Visit App</a>
             <button href="#" onClick={this.onFireFour} className="visit-button screenshot-button">See ScreenShot</button>
           </div>
