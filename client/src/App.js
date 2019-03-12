@@ -13,7 +13,7 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      isHidden: false
+      isHidden: true
     }
   }
     toggleHidden () {
@@ -35,10 +35,10 @@ class App extends Component {
           <div className="nav-divider"></div>
           <div className="topnav">
             <div>
-            <span className="topnav-name">Alec Livinghouse</span>
-          <button onClick={this.toggleHidden.bind(this)} className="rain-button">
-            {buttonText}
-          </button>
+            <span className="topnav-name"><h1>Alec Livinghouse</h1></span>
+          // <button onClick={this.toggleHidden.bind(this)} className="rain-button">
+          //   {buttonText}
+          // </button>
           </div>
           </div>
 
