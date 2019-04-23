@@ -85,9 +85,9 @@ class Projects extends Component{
           <img src={require('./methane.png')} className="equation-img" />
           <div className="project-text-wrapper">
             <p className="project-text">An app that solves stoichiometry problems on chemical equations. It also features login and registration and a user dashboard that displays the users solved equations. Built using MongoDB, Express, React, and Node.</p>
-            <a href="https://blooming-mesa-54677.herokuapp.com/dashboard" className="visit-button">Visit App</a>
+              <a href="https://blooming-mesa-54677.herokuapp.com/dashboard" className="visit-button">Visit App</a>
             <button href="#" onClick={this.onFireOne} className="visit-button screenshot-button">See ScreenShot</button>
-
+              <a href="https://www.github.com/aleclivinghouse/stoichiometry-client" className="visit-button screenshot-button github">Github</a>
           </div>
         </div>
         <div className="first-wrapper">
@@ -96,7 +96,8 @@ class Projects extends Component{
           <div className="project-text-wrapper">
             <p className="project-text">An app that allows users to play two truths and a lie featuring follows, comments, and likes. Built using MongoDB, Express, React, and Node.</p>
             <a href="https://agile-retreat-41591.herokuapp.com/" className="visit-button">Visit App</a>
-              <button href="#" onClick={this.onFireTwo} className="visit-button screenshot-button">See ScreenShot</button>
+              <button href="#" onClick={this.onFireTwo} className="screenshot-button">See ScreenShot</button>
+                <a href="https://www.github.com/aleclivinghouse/quizshare" className="visit-button screenshot-button github">Github</a>
           </div>
         </div>
         <div className="first-wrapper">
@@ -106,6 +107,7 @@ class Projects extends Component{
             <p className="project-text">Web app I made for a small business owner that includes a contact form and a blog with an admin section. Built using Python and Django</p>
              <a href="http://www.atnpr.com/" className="visit-button">Visit App</a>
              <button href="#" onClick={this.onFireThree} className="visit-button screenshot-button">See ScreenShot</button>
+             <a href="https://www.github.com/aleclivinghouse/atnpr" className="visit-button screenshot-button github">Github</a>
           </div>
         </div>
         <div className="first-wrapper">
@@ -115,6 +117,7 @@ class Projects extends Component{
             <p className="project-text">Interactive graph that displays beers based on their ABV and IBU value. Built using HTML, CSS, React, and D3.</p>
             <a href="https://beer-scatterplot.herokuapp.com/" className="visit-button">Visit App</a>
             <button href="#" onClick={this.onFireFour} className="visit-button screenshot-button">See ScreenShot</button>
+            <a href="https://www.github.com/aleclivinghouse/beer" className="visit-button screenshot-button github">Github</a>
           </div>
         </div>
         <div className="first-wrapper">
@@ -124,6 +127,7 @@ class Projects extends Component{
             <p className="project-text">Web app that allows users to bookmark pages, rate the pages they bookmark, and filter by rating. The app uses a jQuery store, not just jQuery plugins. Built using HTML, CSS, and jQuery.</p>
               <a href="https://thinkful-ei24.github.io/alec-bookmarks-app/" className="visit-button">Visit App</a>
               <button href="#" onClick={this.onFireFive} className="visit-button screenshot-button">See ScreenShot</button>
+              <a href="https://github.com/thinkful-ei24/alec-bookmarks-app" className="visit-button screenshot-button github">Github</a>
           </div>
         </div>
           <div className="project-bottom-divider"></div>

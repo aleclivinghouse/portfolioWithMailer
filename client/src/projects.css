@@ -27,6 +27,10 @@
     width: 200px;
     display: none;
   }
+  .github{
+    visibility: hidden;
+  }
+
 }
 .header{
   padding: 20px;
