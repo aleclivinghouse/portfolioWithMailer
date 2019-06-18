@@ -111,6 +111,15 @@ class Projects extends Component{
           </div>
         </div>
         <div className="first-wrapper">
+        <h3 className="header">Realtime Chat</h3>
+          <img src={require('./chat.png')} className="atnpr-logo" />
+          <div className="project-text-wrapper">
+            <p className="project-text">A communications app with realtime chatroom creation, chat, and notifications. Built using React, Node, Express, Mongodb, and Socket.io</p>
+             <a href="https://www.youtube.com/watch?v=C1eMob4Q5ks&feature=youtu.be" className="visit-button">Visit App</a>
+             <a href="https://github.com/aleclivinghouse/mern-realtime-chat" className="visit-button screenshot-button github">Github</a>
+          </div>
+        </div>
+        <div className="first-wrapper">
         <h3 className="header header-margin">Beer Statistics Scatterplot</h3>
           <img src={require('./scatter1.png')} className="hand-img" />
           <div className="project-text-wrapper">
@@ -127,7 +136,7 @@ class Projects extends Component{
             <p className="project-text">Web app that allows users to bookmark pages, rate the pages they bookmark, and filter by rating. The app uses a jQuery store, not just jQuery plugins. Built using HTML, CSS, and jQuery.</p>
               <a href="https://thinkful-ei24.github.io/alec-bookmarks-app/" className="visit-button">Visit App</a>
               <button href="#" onClick={this.onFireFive} className="visit-button screenshot-button">See ScreenShot</button>
-              <a href="https://github.com/thinkful-ei24/alec-bookmarks-app" className="visit-button screenshot-button github">Github</a>
+
           </div>
         </div>
           <div className="project-bottom-divider"></div>
