@@ -115,7 +115,7 @@ class Projects extends Component{
           <img src={require('./chat.png')} className="atnpr-logo" />
           <div className="project-text-wrapper">
             <p className="project-text">A communications app with realtime chatroom creation, chat, and notifications. Built using React, Node, Express, Mongodb, and Socket.io</p>
-             <a href="https://www.youtube.com/watch?v=C1eMob4Q5ks&feature=youtu.be" className="visit-button">Visit App</a>
+             <a href="https://www.youtube.com/watch?v=evAleBodSPU" className="visit-button">Visit App</a>
              <a href="https://github.com/aleclivinghouse/mern-realtime-chat" className="visit-button screenshot-button github">Github</a>
           </div>
         </div>
